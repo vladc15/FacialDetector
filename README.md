@@ -81,7 +81,13 @@ The bonus task involves using the YOLOv8 model for face detection and classifica
 
 ### Task 1: Face Detection
 
-Achieved an average precision of 75%.
+Achieved an average precision of 75%:
+
+<p style="align-content: center">
+  <img src="img/prec_all_faces.png" alt="Face Detection Results" width="300"/>
+</p>
+
+
 
 ### Task 2: Face Classification
 Achieved the following average precisions for each character:
@@ -93,6 +99,16 @@ Achieved the following average precisions for each character:
 - Dexter: 62%
 
 - DeeDee: 83%
+
+<p style="align-content: center">
+  <img src="img/prec_dad.png" alt="Face Classification Results" width="300" style="margin-right: 10px" />
+<img src="img/prec_mom.png" alt="Face Classification Results" width="300"/>
+</p>
+
+<p style="align-content: center">
+<img src="img/prec_dexter.png" alt="Face Classification Results" width="300" style="margin-right: 10px"/>
+    <img src="img/prec_deedee.png" alt="Face Classification Results" width="300"/>
+</p>
 
 ### Bonus Task: YOLO Model
 Achieved near-perfect detection and classification results using YOLOv8.
